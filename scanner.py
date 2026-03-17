@@ -7,7 +7,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from fake_useragent import UserAgent
 from urllib3.exceptions import InsecureRequestWarning
-from config import Confif
+from config import Config
 
 # Nonaktifkan warning SSL
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
