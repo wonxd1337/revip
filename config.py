@@ -9,7 +9,7 @@ class Config:
     MAX_THREADS_SCAN = 100     # Thread untuk scan domain (tanpa proxy)
     
     # Proxy settings
-    PROXY_REFRESH_INTERVAL = 300  # 5 menit dalam detik
+    PROXY_REFRESH_INTERVAL = 1800  # 30 menit dalam detik
     PROXY_URL = "https://raw.githubusercontent.com/proxifly/free-proxy-list/refs/heads/main/proxies/all/data.txt"
     
     # RNG settings
